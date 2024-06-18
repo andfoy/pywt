@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - v1.**
+      - debug_ft_ci
   pull_request:
     branches:
       - main
