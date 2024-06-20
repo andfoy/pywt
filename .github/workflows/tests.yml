@@ -167,9 +167,6 @@ jobs:
           pip install pytest meson-python ninja
           pip install . -v --no-build-isolation
 
-      - name: Setup tmate session
-        uses: mxschmitt/action-tmate@v3
-
       - name: Run tests
         env:
           USE_SDIST: ${{ matrix.USE_SDIST }}
